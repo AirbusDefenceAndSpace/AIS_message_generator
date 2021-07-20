@@ -1,0 +1,2 @@
+pyais~=1.6.1
+pynmeagps~=1.0.2
