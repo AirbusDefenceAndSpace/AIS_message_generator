@@ -4,7 +4,7 @@ This was developed as a means to generate AIS messages from DIS simulation data 
 This was not a priority during development and as such was developed in quite a hacky fashion. That beeing said, it seems to work quite well and is to my knowledge currently the only AIS message generator in the entire internet.
 
 
-#Supported message types
+# Supported message types
 
 This supports the generation of "Position Report Class A" messages, also known as type 1/2/3:
 https://gpsd.gitlab.io/gpsd/AIVDM.html#_types_1_2_and_3_position_report_class_a
@@ -30,7 +30,7 @@ $ pip install -r requirements.txt
 ```
 
 
-##Usage
+## Usage
 
 ```python
 # Used to verify the resulting NMEA message
